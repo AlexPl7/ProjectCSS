@@ -67,3 +67,28 @@ button {
     font-size: 20px;
     font-weight: bolder;
 }
+
+.middle-area {
+    text-align: center;
+    padding: 40px 160px 70px;
+
+
+}
+
+.middle-area h1{
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.image-teaser{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: auto 500px;
+}
+
+.image-teaser img {
+    max-width: 200px;
+    height: auto;
+}
