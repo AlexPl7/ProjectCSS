@@ -67,10 +67,10 @@ button {
     font-size: 20px;
     font-weight: bolder;
 }
-
+/*
 .middle-area {
     text-align: center;
-    padding: 40px 160px 70px;
+    padding: 40px 300px 70px;
 
 
 }
@@ -87,8 +87,82 @@ button {
     gap: 50px;
     padding: auto 500px;
 }
+*/
+
+.middle-area {
+    text-align: center;
+    padding: 40px 300px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.middle-area h1{
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.image-teaser{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.image-teaser p {
+    max-width: 200px;
+}
+
+/* */
 
 .image-teaser img {
     max-width: 200px;
     height: auto;
+    align-items: center;
+}
+
+.quote-area{
+    background-color: #E5E7EB;
+    padding: 80px 350px 80px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoteauthor p {
+    color: #1F2937;
+    text-align: right;
+    font-weight: bold;
+}
+
+.CTAarea {
+    background-color: #3882F6;
+    margin: 100px 220px;
+    border-radius: 10px;
+    padding: 40px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CTAarea button {
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 0px;
+}
+
+.CTAtext h2{
+    font-size: 25px;
+}
+
+.footer {
+    padding: 35px;
+    text-align: center;
+    background-color: #1F2937;
 }
